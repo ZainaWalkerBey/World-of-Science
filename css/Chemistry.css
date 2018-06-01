@@ -1,0 +1,491 @@
+/*Please view at 1480 x 879 px*/
+/*Website coded by: Zaina Walker-Bey
+Photos editted by: Ellen Zheng 
+*/
+body {
+    background-color: #9f351b;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+
+
+}
+
+#What{
+    display: grid;
+
+    grid-gap: 30px;
+    grid-template-areas: 
+        " header header "
+        "main main"
+        "nav nav";
+    grid-template-columns:1f 1f 1f;
+    grid-template-rows: 1fr;
+
+}
+
+#What header{
+    /*burning flask*/
+    grid-area: header;
+    grid-column-start: 5;
+    grid-column-end: 10;
+    width: 80%;
+    height: 80px;
+    transition-duration: 1s;
+    margin-top: 90px;
+    border: 10px solid yellow;
+    width: 690px;
+    height: 410px;
+
+
+}
+#What header:hover{
+    transition-duration: 1s;
+    transform:scale(1.1) rotate(-5deg);
+}
+
+#What nav {
+    grid-area: nav;
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 590px;
+    height:510px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Rokkitt', serif;
+    transition-duration: 1s;
+    color:#9F351B ;
+    font-size: 1.5em;
+    border: 10px solid yellow;
+    margin-top: -105px;
+    border-radius: 20px;
+}
+#What nav:hover{
+    width: 600px;
+    height:600px;
+}
+
+#What iframe{
+    width: 590px;
+    height:500px;
+    transition-duration: 1s;
+    margin-top: -1px;
+
+}
+
+
+#What main {
+    grid-area: main;
+    background-color: white;
+    margin-top: -140px;
+    margin-bottom: 150px;
+    border: 10px solid yellow;
+    transition-duration: 1s;
+    border-radius: 20px;
+    margin-top: -360px;
+}
+#What main:hover{
+    transform: rotate(-3deg);
+}
+#What h1{
+    font-size: 2em;
+    font-family: 'Anton', sans-serif;
+    color:#9F351B ;
+    text-align: center;	
+}
+#What p{
+    font-family: 'Rokkitt', serif;
+    color:#9F351B ;
+    font-size: 1.6em;
+    text-align: center;
+}
+#Origin{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 
+        "main";	
+    grid-template-rows: 1fr;
+    grid-area:main;
+    border: 10px solid yellow;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 50%;
+    height: 55%;
+    text-align: center;
+    background-color: white;
+    transition-duration: 1s;
+    margin-left: 720px;
+    margin-top: -350px;
+    transition-duration: 1s;
+    border-radius: 20px;
+
+}
+#Origin:hover{
+    transform: rotate(3deg);
+    transition-duration: 1s;
+}
+#Origin h1{
+    font-size: 2em;
+    font-family: 'Anton', sans-serif;
+    color:#9F351B ;
+
+}
+#Origin p{
+    font-family: 'Rokkitt', serif;
+    color:#9F351B ;
+    font-size: 1.6em;
+
+}
+#Facts{
+    display: grid;
+
+    grid-gap: 20px;
+    grid-template-areas: 
+        "main main";
+    grid-template-rows: 1fr;
+    grid-area:main;
+    border: 10px solid yellow;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    background-color: white;
+    margin-top: 60px;
+    transition-duration: 1s;
+    border-radius: 20px;
+}
+#Facts:hover{
+    transform: rotate(-3deg);
+    transition-duration: 1s;
+}
+
+#Facts h1{
+    font-size: 2em;
+    font-family: 'Anton', sans-serif;
+    color:#9F351B ;
+}
+#Facts li{
+    font-family: 'Rokkitt', serif;
+    color:#9F351B ;
+    font-size: 1.6em;
+    list-style-type:circle;
+}
+#chembio img{
+    /*molecular structure photo*/
+    transition-duration: 1s;
+    margin-top: -240px;
+    margin-right: 100px;
+    border: 10px solid yellow;
+}
+#chembio img:hover{
+    transition-duration: 1s;
+    transform:scale(1.1) rotate(-5deg);
+}
+#water img{
+    /*water photo*/
+    margin-top: 5px;
+    transition-duration: 1s;
+    margin-right: 300px;
+    border: 10px solid yellow;
+}
+#water img:hover{
+    transition-duration: 1s;
+    transform:scale(1.1) rotate(-2deg);
+}
+
+
+#Careers nav{
+    grid-area: nav;
+    background-color: white;
+    grid-column-start: -6;
+    grid-column-end: 0;
+    width: 290px;
+    height:180px;
+    text-align: center;
+    padding: 2px;
+    font-family: 'Rokkitt', serif;
+    transition-duration: 1s;
+    color:#9F351B ;
+    font-size: 1.2em;
+    border: 5px solid yellow;
+    border-radius: 20px;
+
+}
+#Careers nav:hover{
+    width: 290px
+}
+#Careers{
+    display: grid;
+
+    grid-gap: 20px;
+    grid-template-areas: 
+        "main main";
+    grid-template-rows: 1fr 1fr;
+    grid-area:main;
+    border: 10px solid yellow;
+    grid-column-start: 30;
+    grid-column-end: 40;
+    width: 50%;
+    height: 628px;
+    background-color: white;
+    transition-duration: 1s;
+    margin-top: -200px;
+    margin-left: 720px;
+    transition-duration: 1s;
+    border-radius: 20px;
+
+}
+#Careers:hover{
+    transform: rotate(3deg);
+    transition-duration: 1s;
+}
+#Careers h1{
+    font-size: 2em;
+    font-family: 'Anton', sans-serif;
+    color:#9F351B ;
+    text-align: center;
+}
+
+#Careers li{
+    font-family: 'Rokkitt', serif;
+    color:#9F351B ;
+    font-size: 1.6em;
+    list-style-type:circle;
+}
+/*Click on bottom section of video in order for it to play, please*/
+#Careers iframe{
+    width: 490px;
+    height:450px;
+    transition-duration: 1s;
+    margin-top: -298px;
+}
+
+/* bubble effect was coded by Mark Bowley
+(https://codepen.io/Mark_Bowley/pen/mEtqj)
+*/
+
+@-webkit-keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@-moz-keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@-webkit-keyframes sideWays { 
+    0% { 
+        margin-left:0px;
+    }
+    100% { 
+        margin-left:50px;
+    }
+}
+
+@-moz-keyframes sideWays { 
+    0% { 
+        margin-left:0px;
+    }
+    100% { 
+        margin-left:50px;
+    }
+}
+
+@keyframes sideWays { 
+    0% { 
+        margin-left:0px;
+    }
+    100% { 
+        margin-left:50px;
+    }
+}
+
+/* ANIMATIONS */
+
+.x1 {
+    -webkit-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+
+    left: -5%;
+    top: 5%;
+
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
+}
+
+.x2 {
+    -webkit-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+
+    left: 5%;
+    top: 80%;
+
+    -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    transform: scale(0.4);
+}
+
+.x3 {
+    -webkit-animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+
+    left: 10%;
+    top: 40%;
+
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    transform: scale(0.7);
+}
+
+.x4 {
+    -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+
+    left: 20%;
+    top: 0;
+
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    transform: scale(0.3);
+}
+
+.x5 {
+    -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+
+    left: 30%;
+    top: 50%;
+
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    transform: scale(0.5);
+}
+
+.x6 {
+    -webkit-animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+
+    left: 50%;
+    top: 0;
+
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+.x7 {
+    -webkit-animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+
+    left: 65%;
+    top: 70%;
+
+    -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    transform: scale(0.4);
+}
+
+.x8 {
+    -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+
+    left: 80%;
+    top: 10%;
+
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    transform: scale(0.3);
+}
+
+.x9 {
+    -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+
+    left: 90%;
+    top: 50%;
+
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    transform: scale(0.6);
+}
+
+.x10 {
+    -webkit-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+
+    left: 80%;
+    top: 80%;
+
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    transform: scale(0.3);
+}
+
+/* OBJECTS */
+
+.bubble {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+
+    height: 200px;
+    position: absolute;
+    width: 200px;
+}
+
+.bubble:after {
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 70%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.5)), color-stop(70%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    -webkit-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+    -moz-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+    box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+
+    content: "";
+    height: 180px;
+    left: 10px;
+    position: absolute;
+    width: 180px;
+}

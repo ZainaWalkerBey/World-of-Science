@@ -1,0 +1,95 @@
+/*Please view at 1480 x 879 px*/
+/*Please view at 1480 x 879 px*/
+/*Website coded by: Zaina Walker-Bey
+Photos editted by: Ellen Zheng
+*/
+body{
+    background-color: black;
+    position: absolute;
+    text-align: center;
+}
+
+
+.background{
+    background: url('../IMG/biodna.jpg'); 
+    background-size: cover;
+    width: 3000px;
+    height:800px;
+    margin-top: 150px;
+    margin-left: -35px;
+
+}
+#intro h1{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 1%;
+    font-family: 'Patrick Hand', cursive;
+    font-size: calc(12px + 5.3vw);
+
+}
+#Website{
+    color: white;
+    font-size: 2em;
+    text-align: left;
+
+}
+/*Introducing the game*/
+#Game {
+    color:white;
+    font-size: 2em;
+    text-align: left;
+
+}
+/*Enjoy text*/
+h1{
+    font-family: 'Patrick Hand', cursive; 
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

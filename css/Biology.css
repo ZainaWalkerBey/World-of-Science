@@ -1,0 +1,255 @@
+/*Please view at 1480 x 879 px*/
+/*Website coded by: Zaina Walker-Bey
+Photos editted by: Ellen Zheng 
+*/
+body{
+    background-color: #26b06b;
+    background-image: url("https://www.transparenttextures.com/patterns/black-thread.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+#What{
+    display: grid;
+
+    grid-gap: 20px;
+    grid-template-areas: 
+        " header header "
+        "main main"
+        "nav nav";
+    grid-template-columns:1f 1f 1f;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+/*gif(created by: Photo Editor)*/
+#What header{
+    grid-area: header;
+    grid-column-start: 3;
+    grid-column-end: 10;
+    width: 100px;
+    height: 30px;
+    transition-duration: 1s;
+    margin-top: 90px;
+    margin-left: 90px;
+}
+/*Video (not made by us)*/
+#What iframe{
+    grid-area: nav;
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 590px;
+    height:500px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Rokkitt', serif;
+    transition-duration: 1s;
+    color:lime ;
+    font-size: 1.2em;
+    border: 10px solid black;
+    margin-top: -290px;
+    border-radius: 20px;
+
+}
+#What iframe:hover{
+    background-color: #D9F8FF;
+    transform: scale(1.03);
+}
+
+
+#What main {
+    grid-area: main;
+    background-color:#D9F8FF;
+    grid-template-rows: 1fr;
+    margin-top: -200px;
+    margin-bottom: 350px;
+    margin-left: 30px;
+    border: 10px solid black;
+    transition-duration: 1s;
+    border-radius: 20px;
+}
+#What main:hover{
+    transform: scale(1.05);
+    background-color:#8BC1CD; 
+}
+#What h1{
+    font-size: 2em;
+    font-family: 'IBM Plex Mono', monospace;
+    color:#1D471B;
+    text-align: center;	
+}
+#What p{
+    font-family: 'Quattrocento Sans', sans-serif;
+    color:#1D471B;
+    font-size: 1.6em;
+    text-align: center;
+}
+#Origin{
+    display: grid;
+
+    grid-gap: 20px;
+    grid-template-areas: 
+        "main main";	
+    grid-template-rows: 1fr;
+    grid-area:main;
+    border: 10px solid black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 50%;
+    height: 55%;
+    text-align: center;
+    background-color: #D9F8FF;
+    transition-duration: 1s;
+    margin-left: 720px;
+    margin-top: -370px;
+    transition-duration: 1s;
+    border-radius: 20px;
+
+}
+#Origin:hover{
+    transform: scale(1.1);
+    background-color:#8BC1CD; 
+}
+#Origin h1{
+    font-size: 2em;
+    font-family: 'IBM Plex Mono', monospace;
+    color:#1D471B;
+
+}
+#Origin p{
+    font-family: 'Quattrocento Sans', sans-serif;
+    color:#1D471B;
+    font-size: 1.6em;
+
+}
+#Facts{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 
+        "main main";
+    grid-template-rows: 1fr;
+    grid-area:main;
+    border: 10px solid black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    background-color: #D9F8FF;
+    margin-top: 240px;
+    margin-left:35px;
+    transition-duration: 1s;
+    border-radius: 20px;
+}
+#Facts:hover{
+    transform: scale(1.1);
+    background-color:#8BC1CD; 
+}
+
+#Facts h1{
+    font-size: 2em;
+    font-family: 'IBM Plex Mono', monospace;
+    color:#1D471B;
+}
+#Facts li{
+    font-family: 'Quattrocento Sans', sans-serif;
+    color:#1D471B;
+    font-size: 1.6em;
+    list-style-type:circle;
+}
+#dolphin img{ 
+    /*Modified by photo editor
+    original image from:http://isciencemag.co.uk/blog/dolphin-wisdom-to-be-revealed/
+    */
+    margin-left: 1107px;
+    margin-top: -320px;
+    border: 10px solid #D9F8FF;
+}
+
+#plant img{
+    /*Modified by photo editor
+    orginal image from: 
+    2Fschool%2Fcmu%2Frose-color-guide-different-rose-colors-and-their-meanings&docid=KMBWsYxQrfpe2M&tbnid=y11Xy7HabJpA1M%3A&vet=10ahUKEwiznqzR2LDbAhUCwYMKHbv6BNYQMwiC
+    */
+    border: 10px solid #D9F8FF;
+}
+#Careers{
+    display: grid;
+
+    grid-gap: 20px;
+    grid-template-areas: 
+        "main main";
+    grid-template-rows: 1fr 1fr;
+    grid-area:main;
+    border: 10px solid black;
+    grid-column-start: 30;
+    grid-column-end: 40;
+    width: 50%;
+    height:600px;
+    background-color: #D9F8FF;
+    transition-duration: 1s;
+    margin-top: -300px;
+    margin-left: 720px;
+    transition-duration: 1s;
+    border-radius: 20px;
+
+}
+#Careers:hover{
+    transform: scale(1.1);
+    background-color:#8BC1CD; 
+}
+#Careers h1{
+    font-size: 2em;
+    font-family: 'IBM Plex Mono', monospace;
+    color:#1D471B;
+    text-align: center;
+}
+
+#Careers li{
+    font-family: 'Quattrocento Sans', sans-serif;
+    color:#1D471B;
+    font-size: 1.6em;
+    list-style-type:circle;
+}
+/*Video (not made by us)*/
+#Careers iframe{
+    width: 490px;
+    height:280px;
+    transition-duration: 1s;
+    border-radius: 20px;
+}
+/* snow effect is from https://codepen.io/japooteh/pen/mXbdYv?page=1& */
+/**/
+.snow-bg {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height:228%;
+    pointer-events: none;
+    background-image: url('http://www.mcctours.com.my/wp-content/uploads/2018/01/sakura-1-1.png'), url('http://www.mcctours.com.my/wp-content/uploads/2018/01/sakura-2.png');
+    animation: snow 10s linear infinite;
+
+}
+
+@keyframes snow {
+
+    100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+
+@media (max-width: 768px) {
+    .woocommerce ul.products li.product, 
+    .woocommerce-page ul.products li.product, 
+    .woocommerce-page[class*=columns-] ul.products li.product,
+    .woocommerce[class*=columns-] ul.products li.product {
+        width: 100%;
+        float: left;
+        clear: both;
+        margin: 0 7em;
+    }
+}
+
+

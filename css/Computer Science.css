@@ -1,0 +1,360 @@
+/*Please view at 1480 x 879 px*/
+/*Website coded by: Zaina Walker-Bey
+Photos editted by: Ellen Zheng 
+*/
+body{
+    background-color: black;
+    padding-top: 10px;
+    color:white;
+    max-width: 100%px;
+} 
+
+p{
+    color: lime; 
+    font-family: monospace;
+    font-size: 20px;
+    margin: 10px 0 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation: type 4s steps(60, end); 
+}
+/*Typing effect is from https://codepen.io/rusjames/pen/uAFhE */
+
+p:nth-child(2){
+    animation: type2 8s steps(60, end);
+}
+
+p a{
+    color: lime;
+    text-decoration: none;
+}
+
+span{
+    animation: blink 1s infinite;
+}
+
+@keyframes type{ 
+    from { width: 0; } 
+} 
+
+@keyframes type2{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+} 
+
+@keyframes blink{
+    to{opacity: .0;}
+}
+
+::selection{
+    background: black;
+}
+#Facts ul{
+    color: lime; 
+    font-family:cursive;
+    font-size: 20px;
+    margin: 10px 0 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation: type 4s steps(60, end); 
+}
+
+#Facts ul:nth-child(2){
+    animation: type2 8s steps(60, end);
+}
+
+
+span{
+    animation: blink 1s infinite;
+}
+
+@keyframes type{ 
+    from { width: 0; } 
+} 
+
+@keyframes type2{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+} 
+
+@keyframes blink{
+    to{opacity: .0;}
+}
+
+::selection{
+    background: black;
+}
+
+#Careers ul{
+    color: lime; 
+    font-family: monospace;
+    font-size: 20px;
+    margin: 10px 0 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation: type 4s steps(60, end); 
+}
+
+#Careers ul:nth-child(2){
+    animation: type2 8s steps(60, end);
+}
+
+
+span{
+    animation: blink 1s infinite;
+}
+
+@keyframes type{ 
+    from { width: 0; } 
+} 
+
+@keyframes type2{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+} 
+
+@keyframes blink{
+    to{opacity: .0;}
+}
+
+::selection{
+    background: black;
+}
+#What{
+    display: grid;
+
+    grid-gap: 20px;
+    grid-template-areas: 
+        " header header "
+        "main main"
+        "nav nav";
+    grid-template-columns:1f 1f 1f;
+    grid-template-rows: 1fr;
+
+}
+
+#What header{
+    /*dissociating computer*/
+    grid-area: header;
+    margin-left: 40px;
+    margin-top: 90px;
+    grid-column-start: 3;
+    grid-column-end: 10;
+    width: 100%;
+    height: 100px;
+    transition-duration: 1s;
+    border: 10px solid lime;
+    width:650px;
+    height: 470px;
+}
+
+#What iframe {
+    /*video(not our video)*/
+    grid-area: nav;
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 590px;
+    height:500px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Rokkitt', serif;
+    transition-duration: 1s;
+    color:lime ;
+    font-size: 1.2em;
+    border: 10px solid lime;
+    margin-top: -100px;
+    border-radius: 20px;
+}
+#What iframe:hover{
+    background-color: gray;
+}
+
+
+#What main {
+    grid-area: main;
+    background-color: black;
+    margin-top: -500px;
+    margin-bottom: 150px;
+    border: 10px solid lime;
+    transition-duration: 1s;
+    border-radius: 20px;
+}
+#What main:hover{
+    background: gray;
+}
+#What h1{
+    font-size: 3em;
+    font-family: 'Anton', sans-serif;
+    color:white;
+    text-align: center;
+    font-family: 'Khand', sans-serif;
+}
+#What p{
+    font-family: 'Rokkitt', serif;
+    color:lime ;
+    font-size: 2em;
+    text-align: center;
+}
+#Origin{
+    display: grid;
+
+    grid-gap: 20px;
+    grid-template-areas: 
+        "main main";	
+    grid-template-rows: 1fr;
+    grid-area:main;
+    border: 10px solid lime;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 50%;
+    height: 55%;
+    text-align: center;
+    background-color: black;
+    transition-duration: 1s;
+    margin-left: 720px;
+    margin-top: -300px;
+    transition-duration: 1s;
+    border-radius: 20px;
+
+}
+#Origin:hover{
+    background: gray;
+}
+#Origin h1{
+    font-size: 3em;
+    font-family: 'Khand', sans-serif;
+    color:white ;
+
+}
+
+#Origin p{
+    font-family: 'Rokkitt', serif;
+    color:lime ;
+    font-size: 1.6em;
+
+}
+#Facts{
+    display: grid;
+
+    grid-gap: 20px;
+    grid-template-areas: 
+        "main main";
+    grid-template-rows: 1fr;
+    grid-area:main;
+    border: 10px solid lime;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 50%;
+    height: 50%;
+    text-align: left;
+    background-color: black;
+    margin-top: 100px;
+    transition-duration: 1s;
+    border-radius: 20px;
+}
+#Facts:hover{
+    background-color: gray;
+}
+
+#Facts h1{
+    font-size: 3em;
+    font-family: 'Khand', sans-serif;
+    color:white ;
+}
+#Facts li{
+    font-family: 'Rokkitt', serif;
+    color:lime ;
+    font-size: 23px;
+    list-style-type:square;
+}
+#Careers nav{
+    grid-area: nav;
+    background-color: white;
+    grid-column-start: -6;
+    grid-column-end: 0;
+    width: 290px;
+    height:180px;
+    text-align: center;
+    padding: 2px;
+    font-family: 'Rokkitt', serif;
+    transition-duration: 1s;
+    color:#9F351B ;
+    font-size: 1.2em;
+    border: 10px solid yellow;
+
+}
+#Careers{
+    display: grid;
+
+    grid-gap: 20px;
+    grid-template-areas: 
+        "main main";
+    grid-template-rows: 1fr;
+    grid-area:main;
+    border: 10px solid lime;
+    grid-column-start: 30;
+    grid-column-end: 40;
+    width: 50%;
+    height: 691px;
+    background-color: black;
+    transition-duration: 1s;
+    margin-top: -200px;
+    margin-left: 720px;
+    transition-duration: 1s;
+    border-radius: 20px;
+
+}
+#gates img{
+    /*Bill Gates photo*/
+    margin-left: 1200px;
+    margin-top: -190px;
+    width: 590px;
+    height:500px;
+    border: 10px solid lime;
+}
+#computer img{
+    /*smiling computer photo*/
+    margin-top: -260px;
+    width: 590px;
+    height:500px;
+    border: 10px solid lime;
+}
+#Careers:hover{
+    background-color: gray;
+}
+#Careers h1{
+    font-size: 3em;
+    font-family: 'Khand', sans-serif;
+    color:white ;
+    text-align: center;
+}
+
+#Careers li{
+    font-family: 'Rokkitt', serif;
+    color:lime ;
+    font-size: 1.6em;
+    list-style-type:square;
+}
+
+#Careers iframe{
+    /*video(not our video)*/
+    width: 400px;
+    height:400px;
+    transition-duration: 1s;
+    border-radius: 20px;
+    padding: 20px;
+}
+#Careers iframe:hover{
+    background-color: gray;
+}
+
+
+
+
