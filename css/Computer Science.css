@@ -11,7 +11,7 @@ body{
 
 p{
     color: lime; 
-    font-family: monospace;
+    font-family: 'Rokkitt', serif;
     font-size: 20px;
     margin: 10px 0 0 10px;
     white-space: nowrap;
@@ -197,7 +197,7 @@ span{
     font-family: 'Khand', sans-serif;
 }
 #What p{
-    font-family:  'Rokkitt', serif;
+    font-family: 'Rokkitt', serif;
     color:lime ;
     font-size: 2em;
     text-align: center;
@@ -235,7 +235,7 @@ span{
 }
 
 #Origin p{
-    font-family:  'Rokkitt', serif;
+    font-family: 'Rokkitt', serif;
     color:lime ;
     font-size: 1.6em;
 
@@ -269,7 +269,7 @@ span{
     color:white ;
 }
 #Facts li{
-    font-family:  'Rokkitt', serif;
+    font-family: 'Rokkitt', serif;
     color:lime ;
     font-size: 23px;
     list-style-type:square;
@@ -337,7 +337,7 @@ span{
 }
 
 #Careers li{
-    font-family:'Rokkitt', serif;
+    font-family: 'Rokkitt', serif;
     color:lime ;
     font-size: 1.6em;
     list-style-type:square;
